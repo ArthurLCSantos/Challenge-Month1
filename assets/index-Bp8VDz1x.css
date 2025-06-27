@@ -53,9 +53,9 @@ input[type=color]{opacity:0}
 .checkmark.Blue{background-color:#00f}
 .checkmark.Yellow{background-color:#ff0}
 .checkmark.White{background-color:#fff}
-.checkmark.terra{background-image:url(/Challenge-Month1/assets/terra.jpg)}
-.checkmark.pedra{background-image:url(/Challenge-Month1/assets/pedra.jpg)}
-.checkmark.areia{background-image:url(/Challenge-Month1/assets/areia.jpg)}
-.checkmark.tabua{background-image:url(/Challenge-Month1/assets/tabua.jpg)}
-.checkmark.obsidiana{background-image:url(/Challenge-Month1/assets/obsidiana.jpg)}
+.checkmark.terra{background-image:url(/terra.jpg)}
+.checkmark.pedra{background-image:url(/pedra.jpg)}
+.checkmark.areia{background-image:url(/areia.jpg)}
+.checkmark.tabua{background-image:url(/tabua.jpg)}
+.checkmark.obsidiana{background-image:url(/obsidiana.jpg)}
 @media (max-width: 1440px){.directionalLight{width:100%;display:flex}.slider{width:100%}.titles{display:none}.entries{display:flex;flex-direction:column;gap:5vh}.card-upload{width:100%}#C{border-radius:1vh;width:70vw;height:70vw}}
