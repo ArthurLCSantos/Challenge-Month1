@@ -2,5 +2,10 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/Challenge-Month1/' // <- troque aqui pelo nome exato do seu repositório
-})  
+  root: 'week1',
+  base: '/Challenge-Month1/',
+  build: {
+    outDir: '../dist',
+    emptyOutDir: true
+  }
+})
