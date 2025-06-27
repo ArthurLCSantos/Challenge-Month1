@@ -1,118 +1,106 @@
-🗓️ MÊS 1 – Fundamentos WebGL, Three.js puro, React + Vite, Zustand e Tailwind
-Objetivo: Entender como o 3D funciona na web sem abstrações e começar a integrar com React.
-1 projeto por semana, com foco em fundamentos e integração progressiva.
+🗓️ MONTH 1 – WebGL Fundamentals, Raw Three.js, React + Vite, Zustand & Tailwind  
+Goal: Understand how 3D works on the web without abstractions and start integrating with React.  
+1 project per week, focusing on fundamentals and progressive integration.
 
-━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━  
+📅 Week 1 — WebGL & Raw Three.js Fundamentals  
+━━━━━━━━━━━━━━━━━━━  
+🎯 Goal: Create a basic 3D scene using raw Three.js (no React)
 
-📅 Semana 1 — Fundamentos do WebGL com Three.js puro
+📚 Topics:
 
-━━━━━━━━━━━━━━━━━━━
+- Scene, camera, renderer, meshes
+- Geometries (BoxGeometry, SphereGeometry)
+- Lights (AmbientLight, PointLight)
+- Materials and textures
+- Animations using requestAnimationFrame
+- Click and hover events
 
-🎯 Objetivo: Criar uma cena 3D simples com Three.js puro (sem React)
+🛠️ Project: Interactive 3D Cube
 
-📚 Conteúdo:
+- Rotating cube that changes color on click
+- Scene with dynamic lighting
+- Simple deploy to GitHub Pages or Vercel
 
-- Cena, câmera, renderer, malhas
-- Geometrias (BoxGeometry, SphereGeometry)
-- Luzes (AmbientLight, PointLight)
-- Materiais e texturas
-- requestAnimationFrame para animações
-- Eventos de clique e hover
-
-🛠️ Projeto: Cubo 3D Interativo
-
-- Cubo rotacionável com mudança de cor ao clique
-- Cena com luzes dinâmicas
-- Deploy simples no GitHub Pages ou Vercel
-
-🧰 Tecnologias:
+🧰 Tools:
 
 - HTML, CSS, JavaScript
-- three.js (puro)
+- three.js (standalone)
 
-━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━  
+📅 Week 2 — Modern Setup with React + Vite + Tailwind + Three.js  
+━━━━━━━━━━━━━━━━━━━  
+🎯 Goal: Integrate Three.js inside a React component using a modern environment
 
-📅 Semana 2 — Setup moderno com React + Vite + Tailwind + Three.js
+📚 Topics:
 
-━━━━━━━━━━━━━━━━━━━
+- Setup with Vite + React
+- Tailwind CSS for styling
+- Embedding a Three.js canvas using useRef
+- Connecting UI and canvas logic
 
-🎯 Objetivo: Integrar Three.js em um componente React com ambiente moderno
+🛠️ Project: Canvas Component with Tailwind UI
 
-📚 Conteúdo:
+- Page with modern layout and 3D section
+- Buttons to change 3D object properties (color, shape, rotation)
+- Canvas integrated inside React component
 
-- Setup com Vite + React
-- Tailwind CSS para estilização
-- Inserção de canvas Three.js via useRef
-- Comunicação entre UI e canvas
-
-🛠️ Projeto: Componente Canvas com UI Tailwind
-
-- Página com layout moderno e seção 3D
-- Botões alteram propriedades do objeto 3D (cor, forma, rotação)
-- Integração da lógica do canvas com React
-
-🧰 Tecnologias:
+🧰 Tools:
 
 - React + Vite
 - Tailwind CSS
-- three.js (usado via useEffect e canvas manual)
+- three.js (used via useEffect)
 
-━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━  
+📅 Week 3 — Zustand for Global State Management  
+━━━━━━━━━━━━━━━━━━━  
+🎯 Goal: Control canvas parameters using lightweight global state
 
-📅 Semana 3 — Zustand para controle de estado no React
+📚 Topics:
 
-━━━━━━━━━━━━━━━━━━━
+- Creating a Zustand store
+- Dynamically changing 3D scene via global state
+- Managing object properties (color, shape, rotation)
+- React components and canvas communication
 
-🎯 Objetivo: Controlar os parâmetros do canvas com estado global leve
+🛠️ Project: 3D Control Panel
 
-📚 Conteúdo:
+- UI with buttons and sliders to manage the scene
+- Scene with multiple interactive objects
+- Toggle scene modes (e.g. light/dark theme)
 
-- Criação de store com Zustand
-- Alteração dinâmica da cena 3D via estado global
-- Controle de propriedades do objeto (cor, forma, rotação)
-- Conexão entre componentes React e canvas
-
-🛠️ Projeto: Painel de Controle 3D
-
-- UI com botões e sliders para controlar a cena
-- Cena com múltiplos objetos interativos
-- Alternância de modos (ex: tema claro/escuro da cena)
-
-🧰 Tecnologias:
+🧰 Tools:
 
 - React + Vite
 - Zustand
 - Tailwind CSS
 - three.js
 
-━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━  
+📅 Week 4 — Mini Portfolio with 3D Background  
+━━━━━━━━━━━━━━━━━━━  
+🎯 Goal: Build a personal portfolio page with integrated 3D canvas
 
-📅 Semana 4 — Mini Portfólio com fundo 3D
+📚 Topics:
 
-━━━━━━━━━━━━━━━━━━━
+- Responsive layout with Tailwind
+- Organized sections: About, Projects, Contact
+- Zustand store for theme mode, animation toggles, etc.
+- Optional UI animation using Framer Motion
 
-🎯 Objetivo: Criar uma página de portfólio com canvas 3D integrado
+🛠️ Project: Interactive 3D Portfolio
 
-📚 Conteúdo:
+- Page with “About”, “Projects”, “Contact” sections
+- Animated 3D element in the background or side
+- Fully responsive and ready for deployment
 
-- Design responsivo com Tailwind
-- Organização de seções com layout moderno
-- Uso de Zustand para modo escuro, visibilidade de animações etc.
-- Animações leves com Framer Motion (opcional)
-
-🛠️ Projeto: Portfólio Interativo 3D
-
-- Página com “Sobre”, “Projetos”, “Contato”
-- Elemento 3D animado ao fundo ou lateral
-- Responsivo e pronto para deploy
-
-🧰 Tecnologias:
+🧰 Tools:
 
 - React + Vite
 - Zustand
 - Tailwind CSS
 - three.js
-- Framer Motion (opcional)
+- Framer Motion (optional)
 
 🎯 Month-End Result:
 By the end of the month, you’ll have 4 published projects, a solid understanding of raw WebGL with Three.js, a modern React + Vite setup, and practical use of Zustand and Tailwind for building visually controlled 3D interfaces.
