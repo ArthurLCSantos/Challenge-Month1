@@ -2,10 +2,8 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  root: 'week1',
-  base: '/Challenge-Month1/',
+  base: '/Challenge-Month-1/', // base correta para GitHub Pages
   build: {
-    outDir: '../dist',
-    emptyOutDir: true
-  }
+    outDir: 'dist',
+  },
 })
