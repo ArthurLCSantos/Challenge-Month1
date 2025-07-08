@@ -1,5 +1,5 @@
 import * as THREE from 'https://unpkg.com/three@0.158.0/build/three.module.js';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.158.0/examples/jsm/controls/OrbitControls.js';
 
 //CREATING INPUTS CONSTANTS AND VELOCITY VARIABLE
 const canvas            =  document.querySelector("#C");
