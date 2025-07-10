@@ -5,7 +5,7 @@ import { useCheckboxStyle } from './hooks/useCheckboxStyle'
 import './App.css'
 
 function App() {
-  //comentário para atualizar o gh Pages 3
+  //comentário para atualizar o gh Pages 4
   const [page, setPage] = useState(0)
   const pagesRefs = [useRef(), useRef(), useRef(), useRef()]
 
