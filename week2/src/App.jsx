@@ -5,7 +5,7 @@ import { useCheckboxStyle } from './hooks/useCheckboxStyle'
 import './App.css'
 
 function App() {
-  //comentário para atualizar o gh Pages 6
+  //comentário para atualizar o gh Pages 7
   const [page, setPage] = useState(0)
   const pagesRefs = [useRef(), useRef(), useRef(), useRef()]
 
@@ -61,7 +61,7 @@ function App() {
   }
 
   function handleUpdateNoise() {
-    if (!editNome || !editSeed || !editMod) return
+    if (!(editNome || editSeed || editMod)) return
 
     const updated = {
       id: noiseSelected,
