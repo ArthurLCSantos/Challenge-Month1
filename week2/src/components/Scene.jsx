@@ -16,7 +16,7 @@ export default function Scene(props) {
 
   useEffect(() => {
     if (!ambientRef.current) return undefined
-      ambientRef.current.intensity = ambientLightIntensity
+    ambientRef.current.intensity = ambientLightIntensity
   }, [ambientLightIntensity])
 
   return (

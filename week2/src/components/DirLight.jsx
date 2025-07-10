@@ -21,7 +21,7 @@ export default function DirLight({ intensity, direction, color, helper }) {
   }, [intensity, direction])
 
   useEffect(() => {
-    if (!(helper || lightRef.current)) return undefined
+    if (!helper || !lightRef.current) return undefined
     const lightHelper = new DirectionalLightHelper(lightRef.current, 1000)
     scene.add(lightHelper)
     return () => {
