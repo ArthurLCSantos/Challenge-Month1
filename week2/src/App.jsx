@@ -113,7 +113,7 @@ function App() {
   }, [wireframe])
 
   useEffect(()=>{
-    HandleCreateNoise()
+    handleCreateNoise()
   }, [])
 
   return (
