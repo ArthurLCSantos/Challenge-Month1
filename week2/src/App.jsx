@@ -112,6 +112,10 @@ function App() {
     useCheckboxStyle(wireframeInput, wireframe)
   }, [wireframe])
 
+  useEffect(()=>{
+    createNoise()
+  }, [])
+
   return (
     <div className="flex w-full h-full bg-blue-950 p-10">
       {/* 3D Scene */}
